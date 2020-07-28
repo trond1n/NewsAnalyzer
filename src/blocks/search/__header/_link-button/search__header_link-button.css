@@ -1,0 +1,21 @@
+.search__header_link-button {
+    font-family: Roboto;
+    text-decoration: none;
+    color: #B6BCBF;
+    margin-left: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    transition: opacity .5s linear;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.search__header_link-button:hover {
+    color: #FFFFFF;
+    transition: .5s;
+}

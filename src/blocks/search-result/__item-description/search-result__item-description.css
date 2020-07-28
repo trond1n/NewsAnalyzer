@@ -1,0 +1,16 @@
+.search-result__item-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 352px;
+    margin: 16px 0 0 24px;
+
+    /* or 137% */
+
+
+    /* main/black */
+
+    color: #1A1B22;
+}

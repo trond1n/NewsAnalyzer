@@ -1,0 +1,9 @@
+@import url('./_button/search__container_button.css');
+@import url('./_input/search__container_input.css');
+
+.search__container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 64px auto 80px;
+}

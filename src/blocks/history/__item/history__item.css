@@ -1,0 +1,20 @@
+@import url('./_avatar/history__item_avatar.css');
+@import url('./_date/history__item_date.css');
+@import url('./_description/history__item_description.css');
+@import url('./_email/history__item_email.css');
+@import url('./_name/history__item_name.css');
+@import url('./_user-contacts/history__item_user-contacts.css');
+@import url('./_user-info/history__item_user-info.css');
+
+.history__item {
+    background: #FFFFFF;
+    max-width: 400px;
+    border-radius: 16px;
+    list-style-type: none;
+
+}
+
+.history__item:hover {
+    box-shadow: 0px 11px 58px 0px rgba(0, 0, 0, 0.20);
+
+}

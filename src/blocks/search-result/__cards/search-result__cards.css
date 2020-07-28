@@ -1,0 +1,9 @@
+.search-result__cards {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 64px;
+
+}

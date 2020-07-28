@@ -1,0 +1,16 @@
+.search-result__item-title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    max-width: 352px;
+    margin: 12px 0 0 24px;
+
+    /* or 115% */
+
+
+    /* main/black */
+
+    color: #1A1B22;
+}

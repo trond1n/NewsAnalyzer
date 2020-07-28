@@ -1,0 +1,13 @@
+@import url('./__description/about-author__description.css');
+@import url('./__margin/about-author__margin.css');
+@import url('./__photo/about-author__photo.css');
+@import url('./__subtitle/about-author__subtitle.css');
+@import url('./__title/about-author__title.css');
+.about-author {
+    display: flex;
+    justify-content: center;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    padding: 80px 0;
+
+}

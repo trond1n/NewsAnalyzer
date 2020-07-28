@@ -1,0 +1,15 @@
+@import url('./__link-button/_black/header__link-button_black.css');
+@import url('./__link-button/_selected/header__link-button_selected.css');
+@import url('./__links/_black/header__links_black.css');
+@import url('./__logo/header__logo.css');
+.header {
+    background: #FFFFFF;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgba(196, 196, 196, 0.2);
+    box-sizing: border-box;
+
+}

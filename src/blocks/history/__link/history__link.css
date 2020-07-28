@@ -1,0 +1,22 @@
+.history__link {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    /* main/black */
+
+    color: #1A1B22;
+}
+
+.history__link:hover {
+    color: #B6BCBF;
+    transition: .5s;
+}

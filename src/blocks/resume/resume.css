@@ -1,0 +1,14 @@
+@import url('./__button/resume__button.css');
+@import url('./__links/resume__links.css');
+@import url('./__request/resume__request.css');
+@import url('./__results/resume__results.css');
+
+@import url('./__value/resume__value.css');
+
+.resume {
+    margin: 0 auto;
+    padding: 40px 104px 80px 104px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+
+}

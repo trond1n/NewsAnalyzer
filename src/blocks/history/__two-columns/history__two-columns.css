@@ -1,0 +1,7 @@
+.history__two-columns {
+    margin: 0 auto;
+    max-width: 1232px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,17 @@
+.analytics__table-header_date {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    /* or 133% */
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    /* simulator/gray/text */
+
+    color: #B6BCBF;
+    max-width: 60px;
+}

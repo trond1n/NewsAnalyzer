@@ -1,0 +1,16 @@
+.search-result__item-date {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px 0 0 24px;
+
+    /* identical to box height, or 133% */
+
+
+
+    /* simulator/gray/text */
+
+    color: #B6BCBF;
+}
