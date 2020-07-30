@@ -7,3 +7,9 @@
     margin-top: 64px;
 
 }
+
+@media screen and (max-width: 320px) {
+    .search-result__cards{
+        margin-top: 36px;
+    }
+}

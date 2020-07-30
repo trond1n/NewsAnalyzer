@@ -17,3 +17,12 @@
     margin-top: 18px;
     margin-bottom: 24px;
 }
+
+@media screen and (max-width: 320px) {
+    .search-result__item-link {
+        margin: 5px 0 20px 16px;
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+}

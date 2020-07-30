@@ -2,3 +2,18 @@
     border-radius: 1000px;
     width: 464px;
 }
+
+@media screen and (max-width: 768px) {
+    .about-author__photo {
+        width: 232px;
+        height: 232px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-author__photo {
+        margin: 0  auto;
+        width: 272px;
+        height: 272px;
+    }
+}

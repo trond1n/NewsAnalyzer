@@ -16,3 +16,22 @@
 .search-result__item:nth-child(3n) {
     margin-right: 0px;
 }
+
+@media screen and (max-width: 768px) {
+    .search-result__item {
+        max-width: 224px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-result__item {
+
+        margin: 0 auto;
+        margin-bottom: 8px;
+        max-width: 288px;
+    }
+
+    .search-result__item:last-child {
+        margin-bottom: 0;
+    }
+}

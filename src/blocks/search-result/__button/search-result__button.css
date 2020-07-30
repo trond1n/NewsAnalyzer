@@ -22,3 +22,18 @@
     box-shadow: 0px 11px 58px 0px rgba(0, 0, 0, 0.20);
 
 }
+
+@media screen and (max-width: 768px) {
+    .search-result__button {
+        width: 240px;
+        height: 56px;
+        margin-top: 32px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .search-result__button {
+        width: 288px;
+        height: 56px;
+        margin-top: 12px;
+    }
+}

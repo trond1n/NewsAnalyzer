@@ -8,10 +8,14 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const isDev = process.env.NODE_ENV === 'development';
 
 module.exports = {
-    entry: './src/script/script.js',
+    entry: {
+        index: './src/script/index.js',
+        about: './src/script/about.js',
+        paper: './src/script/paper.js'
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: './scripts/[name].[chunkhash].js'
     },
     module: {
         rules: [{
@@ -20,11 +24,20 @@ module.exports = {
             exclude: /node_modules/
         },
         {
-            test: /\.css$/i,
+            test: /\.css$/,
             use: [
-                (isDev ? 'style-loader' : MiniCssExtractPlugin.loader),
-                'css-loader',
-                'postcss-loader'
+                isDev ? 'style-loader'
+                    : {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: { publicPath: '../', },
+                    },
+                {
+                    loader: 'css-loader',
+                    options: {
+                        importLoaders: 2,
+                    },
+                },
+                'postcss-loader',
             ]
         },
         {
@@ -51,10 +64,32 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: 'src/index.html'
+            inject: false,
+            minify: false,
+            hash: true,
+            template: './src/index.html',
+            chunks: ['index'],
+            filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            minify: false,
+            hash: true,
+            template: './src/about.html',
+            chunks: ['about'],
+            filename: 'about.html'
+        }),
+        new HtmlWebpackPlugin({
+            inject: false,
+            minify: false,
+            hash: true,
+            template: './src/paper.html',
+            chunks: ['paper'],
+            filename: 'paper.html'
         }),
         new MiniCssExtractPlugin({
-            filename: '[name].[contenthash].css'
+            filename: './pages/[name].[contenthash].css',
+
         }),
         new webpack.DefinePlugin({
             'NODE_ENV': JSON.stringify(process.env.NODE_ENV)

@@ -5,12 +5,21 @@
     font-size: 18px;
     line-height: 24px;
     margin: 20px 0 0 24px;
-
-    /* identical to box height, or 133% */
-
-
-
-    /* simulator/gray/text */
-
     color: #B6BCBF;
+}
+
+@media screen and (max-width: 768px) {
+    .search-result__item-date {
+        margin: 16px 0 0 16px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search-result__item-date {
+        margin: 16px 0 0 16px;
+        font-size: 22px;
+        line-height: 26px;
+    }
 }

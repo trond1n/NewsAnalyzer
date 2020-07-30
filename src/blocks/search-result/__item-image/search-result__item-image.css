@@ -1,0 +1,18 @@
+.search-result__item-image {
+    max-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .search-result__item-image {
+        max-width: 224px;
+        max-height: 150px;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .search-result__item-image {
+        max-width: 288px;
+        max-height: 196px;
+    }
+    
+}

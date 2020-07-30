@@ -4,10 +4,14 @@
     font-weight: normal;
     font-size: 40px;
     line-height: 46px;
-    /* identical to box height, or 115% */
-
-
-    /* main/black */
+    margin: 0 auto;
 
     color: #1A1B22;
+}
+
+@media screen and (max-width: 768px) {
+    .about-author__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
 }

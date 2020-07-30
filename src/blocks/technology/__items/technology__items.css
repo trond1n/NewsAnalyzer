@@ -1,6 +1,20 @@
 .technology__items {
-    /* border: 1px solid red; */
     margin: 0 auto;
+}
 
+@media screen and (max-width: 768px) {
+    .technology__items {
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
 
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .technology__items {
+        flex-wrap: wrap;
+    }
 }

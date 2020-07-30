@@ -20,3 +20,16 @@
     color: #B6BCBF;
     transition: .5s;
 }
+
+@media screen and (max-width: 768px) {
+    .history__link {
+        text-align: end;
+        max-width: 90px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .history__link {
+        display: none;
+    }
+}

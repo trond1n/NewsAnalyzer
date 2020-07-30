@@ -3,3 +3,10 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 320px) {
+    .search-result__two-columns {
+        flex-direction: column;
+        align-items: start;
+    }
+}

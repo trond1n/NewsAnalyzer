@@ -8,5 +8,24 @@
     max-width: 608px;
     margin: 0 auto;
     margin-top: 80px;
+    /* border: 1px solid red; */
 
+}
+
+@media screen and (max-width: 768px) {
+    .search__title {
+        font-size: 36px;
+        max-width: 400px;
+        line-height: 40px;
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .search__title {
+        font-size: 36px;
+        line-height: 40px;
+        max-width: 288px;
+
+        margin-top: 30px;
+    }
 }

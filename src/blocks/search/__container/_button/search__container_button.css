@@ -23,3 +23,20 @@
 .search__container_button:focus {
     background: #2A65CC;
 }
+
+@media screen and (max-width: 768px) {
+    .search__container_button {
+
+        width: 160px;
+        height: 56px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .search__container_button {
+        margin-top: 16px;
+        position: relative;
+        width: 288px;
+        height: 56px;
+    }
+}

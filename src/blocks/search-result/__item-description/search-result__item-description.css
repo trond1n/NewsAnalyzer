@@ -6,11 +6,22 @@
     line-height: 22px;
     max-width: 352px;
     margin: 16px 0 0 24px;
-
-    /* or 137% */
-
-
-    /* main/black */
-
     color: #1A1B22;
+}
+
+@media screen and (max-width: 768px) {
+    .search-result__item-description {
+        margin: 10px 0 0 16px;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 192px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .search-result__item-description {
+        margin: 10px 0 0 16px;
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 256px;
+    }
 }

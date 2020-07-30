@@ -10,3 +10,10 @@
     margin: 0;
 
 }
+
+@media screen and (max-width: 320px) {
+    .technology__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

@@ -24,6 +24,23 @@
     color: #1A1B22;
 
 }
+
 .search__container_input::placeholder {
     color: #B6BCBF;
+
+}
+
+@media screen and (max-width: 768px) {
+    .search__container_input {
+
+        width: 448px;
+        height: 56px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .search__container_input {
+
+        width: 288px;
+        height: 56px;
+    }
 }

@@ -11,3 +11,17 @@
 
     color: #1A1B22;
 }
+
+@media screen and (max-width: 768px) {
+    .history__title {
+        max-width: 336px;
+        font-size: 30px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .history__title {
+        max-width: 150px;
+
+    }
+}

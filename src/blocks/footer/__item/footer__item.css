@@ -1,4 +1,28 @@
 .footer__item {
     display: inline;
+    margin-right: 40px;
+}
 
+.footer__item:last-child {
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__item {
+        margin-right: 24px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__item {
+        display: block;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer__item:last-child {
+        margin-bottom: 0;
+    }
 }

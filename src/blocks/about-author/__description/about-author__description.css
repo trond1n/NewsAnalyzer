@@ -1,3 +1,18 @@
 .about-author__description {
     margin: 50px 0 0 54px;
 }
+
+@media screen and (max-width: 768px) {
+    .about-author__description {
+        margin: 0;
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about-author__description {
+        margin: 0 auto;
+        margin-top: 24px;
+        max-width: 288px;
+    }
+}
