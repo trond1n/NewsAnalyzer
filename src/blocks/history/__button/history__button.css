@@ -5,7 +5,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .history__button {
         display: block;
         border: 1px solid #1A1B22;

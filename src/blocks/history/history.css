@@ -4,3 +4,20 @@
 @import url('./__title/history__title.css');
 @import url('./__two-columns/history__two-columns.css');
 @import url('./__button/history__button.css');
+
+.history {
+    padding: 0 104px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 868px) {
+    .history {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .history {
+        padding: 0px 16px;
+    }
+}

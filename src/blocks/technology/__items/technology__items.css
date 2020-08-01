@@ -1,19 +1,21 @@
 .technology__items {
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 984px) {
     .technology__items {
         width: 100%;
         margin: 0;
         margin-top: 40px;
-        display: flex;
-        justify-content: space-between;
+
 
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 535px) {
     .technology__items {
         flex-wrap: wrap;
     }

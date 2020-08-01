@@ -17,13 +17,23 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .footer {
         padding: 0 40px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 690px) {
+    .footer {
+        flex-wrap: wrap;
+        align-items: flex-start;
+
+
+
+    }
+}
+
+@media screen and (max-width: 350px) {
     .footer {
         flex-wrap: wrap;
         align-items: flex-start;

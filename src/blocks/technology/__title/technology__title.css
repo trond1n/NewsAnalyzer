@@ -11,7 +11,7 @@
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .technology__title {
         font-size: 30px;
         line-height: 40px;

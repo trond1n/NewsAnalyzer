@@ -1,21 +1,6 @@
 .history__two-columns {
     margin: 0 auto;
-    max-width: 1232px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-@media screen and (max-width: 768px) {
-    .history__two-columns {
-        max-width: 688px;
-
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .history__two-columns {
-        max-width: 288px;
-
-    }
 }

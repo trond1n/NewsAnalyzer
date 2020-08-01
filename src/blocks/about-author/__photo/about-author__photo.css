@@ -3,14 +3,14 @@
     width: 464px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .about-author__photo {
         width: 232px;
         height: 232px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 610px) {
     .about-author__photo {
         margin: 0  auto;
         width: 272px;

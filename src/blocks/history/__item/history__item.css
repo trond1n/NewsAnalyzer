@@ -14,32 +14,32 @@
 
 }
 
+.history__item:nth-child(2) {
+    display: none;
+
+}
+
+.history__item:nth-child(3) {
+    display: none;
+
+}
+
 .history__item:hover {
     box-shadow: 0px 11px 58px 0px rgba(0, 0, 0, 0.20);
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .history__item {
         max-width: 336px;
 
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .history__item {
         margin: 0 auto;
         max-width: 288px;
-
-    }
-
-    .history__item:nth-child(2) {
-        display: none;
-
-    }
-
-    .history__item:nth-child(3) {
-        display: none;
 
     }
 }

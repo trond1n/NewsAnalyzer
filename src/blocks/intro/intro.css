@@ -4,17 +4,17 @@
 .intro {
     background: #FFFFFF;
     /* border: 1px solid red; */
-    padding: 80px 0 94px 104px;
+    padding: 80px 104px 94px;
     box-sizing: border-box;
     margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .intro {
         padding: 30px 40px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .intro {
         padding: 16px;
     }

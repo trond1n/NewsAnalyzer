@@ -1,15 +1,4 @@
 .header__links_black {
-    margin-right: 104px;
+    margin: 0;
     display: flex;
-}
-
-@media screen and (max-width: 768px) {
-    .header__links_black {
-        margin-right: 42px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .header__links_black {
-        margin-right: 14px;
-    }
 }
