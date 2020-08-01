@@ -24,7 +24,7 @@
     background: #2A65CC;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .search__container_button {
 
         width: 160px;
@@ -32,7 +32,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .search__container_button {
         margin-top: 16px;
         position: relative;

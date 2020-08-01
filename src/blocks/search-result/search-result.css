@@ -11,6 +11,7 @@
 @import url('./__item-description/search-result__item-description.css');
 
 .search-result {
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -19,12 +20,12 @@
     box-sizing: border-box
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .search-result {
         padding: 40px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 525px) {
     .search-result {
         padding: 32px 16px 44px;
     }

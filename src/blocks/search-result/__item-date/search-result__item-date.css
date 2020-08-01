@@ -8,7 +8,7 @@
     color: #B6BCBF;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .search-result__item-date {
         margin: 16px 0 0 16px;
         font-size: 18px;
@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 525px) {
     .search-result__item-date {
         margin: 16px 0 0 16px;
         font-size: 22px;

@@ -30,14 +30,14 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .search__container_input {
 
         width: 448px;
         height: 56px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .search__container_input {
 
         width: 288px;

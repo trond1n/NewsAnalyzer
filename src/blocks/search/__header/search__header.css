@@ -10,6 +10,19 @@
     justify-content: space-between;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     border-bottom: 2px solid rgba(196, 196, 196, 0.2);
+    padding: 0 104px;
     box-sizing: border-box;
 
+}
+
+@media screen and (max-width: 868px) {
+    .search__header {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .search__header {
+        padding: 0px 16px;
+    }
 }

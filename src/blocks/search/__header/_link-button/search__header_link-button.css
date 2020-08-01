@@ -1,17 +1,15 @@
 .search__header_link-button {
     font-family: Roboto;
-    text-decoration: none;
-    color: #B6BCBF;
-    margin-left: 18px;
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 23px;
-    transition: opacity .5s linear;
-    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 24px;
     display: flex;
     align-items: center;
     text-align: center;
+    text-decoration: none;
+    color: #B6BCBF;
+    margin-left: 34px;
 
 }
 
@@ -20,21 +18,10 @@
     transition: .5s;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .search__header_link-button {
-        margin-left: 34px;
-
-
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .search__header_link-button {
-        margin-left: 11px;
-
         font-size: 16px;
         line-height: 24px;
-
-
+        margin-left: 11px;
     }
 }

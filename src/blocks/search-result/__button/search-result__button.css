@@ -23,14 +23,14 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .search-result__button {
         width: 240px;
         height: 56px;
         margin-top: 32px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 525px) {
     .search-result__button {
         width: 288px;
         height: 56px;

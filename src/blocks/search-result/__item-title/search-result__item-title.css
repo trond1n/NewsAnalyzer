@@ -4,23 +4,27 @@
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
-    max-width: 352px;
+    max-width: 90%;
     margin: 12px 0 0 24px;
     color: #1A1B22;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     .search-result__item-title {
-        max-width: 192px;
-        margin: 12px 0 0 16px;
         font-size: 22px;
         line-height: 24px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 868px) {
     .search-result__item-title {
-        max-width: 256px;
+        margin: 12px 0 0 16px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .search-result__item-title {
+
         margin: 16px 0 0 16px;
         font-size: 22px;
         line-height: 26px;

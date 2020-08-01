@@ -11,7 +11,7 @@
 
 @media screen and (max-width: 610px) {
     .about-author__description {
-        margin: 0 auto;
+        margin: 0;
         margin-top: 24px;
 
     }
@@ -19,7 +19,6 @@
 
 @media screen and (max-width: 350px) {
     .about-author__description {
-
         max-width: 288px;
     }
 }

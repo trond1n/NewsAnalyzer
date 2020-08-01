@@ -1,17 +1,4 @@
 .search__header_links {
-    margin-right: 104px;
+    margin: 0;
     display: flex;
-
-
-}
-
-@media screen and (max-width: 768px) {
-    .search__header_links {
-        margin-right: 39px;
-    }
-}
-@media screen and (max-width: 320px) {
-    .search__header_links {
-        margin-right: 14px;
-    }
 }
