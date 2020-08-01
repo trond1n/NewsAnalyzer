@@ -22,29 +22,29 @@
 }
 
 .analytics__table_score:nth-child(1) {
-    width: 184px;
+    width: 10vw;
 }
 
 .analytics__table_score:nth-child(2) {
-    width: 256px;
+    width: 12vw;
 }
 
 .analytics__table_score:nth-child(3) {
-    width: 120px;
+    width: 9vw;
 }
 
 .analytics__table_score:nth-child(4) {
-    width: 424px;
+    width: 28vw;
 }
 
 .analytics__table_score:nth-child(5) {
-    width: 528px;
+    width: 32vw;
 }
 
 .analytics__table_score:nth-child(6) {
-    width: 816px;
+    width: 56vw;
 }
 
 .analytics__table_score:nth-child(7) {
-    width: 368px;
+    width: 27vw;
 }
