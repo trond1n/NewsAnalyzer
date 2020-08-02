@@ -1,0 +1,32 @@
+@import url('./__item/technology__item.css');
+@import url('./__items/technology__items.css');
+@import url('./__title/technology__title.css');
+
+.technology {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 104px 94px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+@media screen and (max-width: 984px) {
+    .technology {
+
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .technology {
+        padding: 40px;
+
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .technology {
+        flex-wrap: wrap;
+    }
+}

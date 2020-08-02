@@ -1,0 +1,28 @@
+.search-result__item-link {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #B6BCBF;
+    text-decoration: none;
+    max-width: 352px;
+
+    margin: 0 auto;
+    margin-left: 24px;
+    margin-top: 18px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 525px) {
+    .search-result__item-link {
+        margin: 5px 0 20px 16px;
+        font-size: 16px;
+        line-height: 20px;
+
+    }
+}

@@ -1,0 +1,18 @@
+.about-author__photo {
+    border-radius: 1000px;
+    max-width: 464px;
+    width: 40%;
+    height: 40%;
+    min-width: 272px;
+    min-height: 272px;
+}
+
+
+
+@media screen and (max-width: 610px) {
+    .about-author__photo {
+        margin: 0 auto;
+        width: 40%;
+        height: 40%;
+    }
+}

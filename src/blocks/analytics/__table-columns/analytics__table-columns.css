@@ -1,0 +1,9 @@
+@import url('./_date-column/analytics__table-columns_date-column.css');
+@import url('./_score-column/analytics__table-columns_score-column.css');
+
+.analytics__table-columns {
+    margin: 0;
+    display: grid;
+    grid-template-columns: minmax(104px, 104px) 8fr;
+    grid-template-rows: 1fr;
+}

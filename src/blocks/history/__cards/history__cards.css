@@ -1,0 +1,7 @@
+.history__cards {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    padding: 0;
+}

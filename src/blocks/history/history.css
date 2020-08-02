@@ -1,0 +1,24 @@
+@import url('./__cards/history__cards.css');
+@import url('./__item/history__item.css');
+@import url('./__link/history__link.css');
+@import url('./__title/history__title.css');
+@import url('./__two-columns/history__two-columns.css');
+@import url('./__button/history__button.css');
+
+.history {
+    padding: 0 104px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media screen and (max-width: 868px) {
+    .history {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .history {
+        padding: 0px 16px;
+    }
+}

@@ -1,0 +1,8 @@
+.technology__item {}
+
+@media screen and (max-width: 535px) {
+    .technology__item {
+        margin: 0;
+        width: 40%;
+    }
+}

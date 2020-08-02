@@ -1,0 +1,30 @@
+.footer__author {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height, or 137% */
+
+
+    /* simulator/gray/text */
+
+    color: #B6BCBF;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__author {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer__author {
+        order: 3;
+        width: 100%;
+        margin-top: 40px;
+
+
+    }
+}

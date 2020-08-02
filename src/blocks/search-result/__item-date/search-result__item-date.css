@@ -1,0 +1,25 @@
+.search-result__item-date {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 20px 0 0 24px;
+    color: #B6BCBF;
+}
+
+@media screen and (max-width: 868px) {
+    .search-result__item-date {
+        margin: 16px 0 0 16px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .search-result__item-date {
+        margin: 16px 0 0 16px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

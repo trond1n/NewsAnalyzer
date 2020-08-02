@@ -1,0 +1,27 @@
+.search__header_link-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #B6BCBF;
+    margin-left: 34px;
+
+}
+
+.search__header_link-button:hover {
+    color: #FFFFFF;
+    transition: .5s;
+}
+
+@media screen and (max-width: 480px) {
+    .search__header_link-button {
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: 11px;
+    }
+}

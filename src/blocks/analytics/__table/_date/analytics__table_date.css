@@ -1,0 +1,14 @@
+.analytics__table_date {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 80px;
+    /* or 444% */
+
+
+    /* main/black */
+
+    color: #1A1B22;
+}

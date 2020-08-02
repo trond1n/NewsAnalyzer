@@ -1,0 +1,16 @@
+.resume__button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+    text-decoration: none;
+    color: #1A1B22;
+}
+
+.resume__button:hover {
+    transition: .5s;
+    color: #B6BCBF;
+}

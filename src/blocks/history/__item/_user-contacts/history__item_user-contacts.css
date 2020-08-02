@@ -1,0 +1,8 @@
+.history__item_user-contacts {
+    margin: 0;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}

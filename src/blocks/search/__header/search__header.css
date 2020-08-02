@@ -1,0 +1,28 @@
+@import url('./_link-button/search__header_link-button.css');
+@import url('./_link-button/_selected/search__header_link-button_selected.css');
+@import url('./_links/search__header_links.css');
+@import url('./_logo/search__header_logo.css');
+
+.search__header {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    border-bottom: 2px solid rgba(196, 196, 196, 0.2);
+    padding: 0 104px;
+    box-sizing: border-box;
+
+}
+
+@media screen and (max-width: 868px) {
+    .search__header {
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .search__header {
+        padding: 0px 16px;
+    }
+}

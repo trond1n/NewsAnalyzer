@@ -1,0 +1,21 @@
+@import url('./_button/search__container_button.css');
+@import url('./_input/search__container_input.css');
+
+.search__container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    margin: 64px auto 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .search__container {
+        margin: 24px 0 48px 48px;
+    }
+}
+@media screen and (max-width: 540px) {
+    .search__container {
+        flex-direction: column;
+        margin: 64px auto 32px;
+    }
+}
