@@ -8,6 +8,7 @@
 .history {
     padding: 0 104px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 @media screen and (max-width: 868px) {
