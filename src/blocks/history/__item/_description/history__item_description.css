@@ -1,16 +1,13 @@
 .history__item_description {
     margin: 16px 24px 80px 24px;
-
+max-height: 70px;
     max-width: 352px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
-    /* or 137% */
-
-
-    /* main/black */
-
+    overflow: hidden;
+    text-overflow: ellipsis;
     color: #1A1B22;
 }
