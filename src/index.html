@@ -28,11 +28,13 @@
                 <h1 class="search__title">Что в мире творится?</h1>
                 <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в
                     новостях за прошедшую неделю.</p>
-                <form class="search__container">
+                <form class="search__container" novalidate>
                     <input class="search__container_input" placeholder="Введите тему новости" type="text" minlength='2'
                         maxlength="30" required>
                     <button class="search__container_button" type="submit">Искать</button>
+                    <span class="search__container_error"></span>
                 </form>
+
             </section>
             <section class="not-found">
                 <img class="not-found__image" src="<%=require('./images/not-found_v1.png')%>" alt="Ничего не найдено">

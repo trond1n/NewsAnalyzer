@@ -92,7 +92,10 @@ module.exports = {
 
         }),
         new webpack.DefinePlugin({
-            'NODE_ENV': JSON.stringify(process.env.NODE_ENV)
+            'NODE_ENV': JSON.stringify(process.env.NODE_ENV),
+            BASE_URL: JSON.stringify(
+                isDev ? 'https://newsapi.org' : 'https://praktikum.tk/news'
+            ),
         }),
         new OptimizeCssAssetsPlugin({
             assetNameRegExp: /\.css$/g,

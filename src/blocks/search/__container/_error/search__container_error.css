@@ -1,0 +1,35 @@
+.search__container_error {
+  position: absolute;
+  left: 2vw;
+  bottom: -2vw;
+  color: salmon;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+}
+@media screen and (max-width: 1030px) {
+  .search__container_error {
+    left: 3vw;
+    bottom: -3vw;
+  }
+}
+@media screen and (max-width: 680px) {
+  .search__container_error {
+    left: 3vw;
+    bottom: -4vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  .search__container_error {
+    left: 5vw;
+    top: -5vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search__container_error {
+    left: 5vw;
+    top: -7vw;
+  }
+}
