@@ -1,6 +1,5 @@
 .history__item_avatar {
-    margin: 0;
-
-    max-width: 64px;
-
+  margin: 0;
+  border-radius: 1000px;
+  max-width: 64px;
 }

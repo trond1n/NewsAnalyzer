@@ -36,13 +36,13 @@
                 </form>
 
             </section>
-            <section class="not-found">
+            <section class="not-found section__hide">
                 <img class="not-found__image" src="<%=require('./images/not-found_v1.png')%>" alt="Ничего не найдено">
                 <h3 class="not-found__title">Ничего не найдено</h3>
                 <p class="not-found__subtitle">К сожалению по вашему запросу
                     ничего не найдено.</p>
             </section>
-            <section class="search-preloader">
+            <section class="search-preloader section__hide">
                 <i class="search-preloader__circle"></i>
                 <p class="search-preloader__subtitle">Идет поиск новостей...</p>
             </section>
@@ -52,7 +52,7 @@
                     <a href="./paper.html" class="search-result__link">Посмотреть аналитику &#62;</a>
                 </div>
                 <div class="search-result__cards">
-                    <div class="search-result__item">
+                    <a class="search-result__item" href="https://lenta.ru/" target="_blank">
                         <img src="<%=require('./images/image_08.png')%>" alt="Шалфей" class="search-result__item-image">
                         <p class="search-result__item-date">2 августа, 2019</p>
                         <h3 class="search-result__item-title">Национальное достояние – парки</h3>
@@ -60,60 +60,8 @@
                             назад здесь
                             начала складываться система национальных парков – охраняемых территорий, где и сегодня
                             каждый может приобщиться к природе.</p>
-                        <a href="https://lenta.ru/" class="search-result__item-link" target="_blank">Лента.ру</a>
-                    </div>
-                    <div class="search-result__item">
-                        <img src="<%=require('./images/image_04.png')%>" alt="Фикус" class="search-result__item-image">
-                        <p class="search-result__item-date">2 августа, 2019</p>
-                        <h3 class="search-result__item-title">Лесные огоньки: история одной фотографии</h3>
-                        <p class="search-result__item-description">Фотограф отвлеклась от освещения суровой политической
-                            реальности
-                            Мексики, чтобы запечатлеть ускользающую красоту одного
-                            из местных чудес природы.</p>
-                        <a href="https://meduza.io/" class="search-result__item-link" target="_blank">МЕДУЗА</a>
-                    </div>
-                    <div class="search-result__item">
-                        <img src="<%=require('./images/image_07.png')%>" alt="Мюленбекия спутанная"
-                            class="search-result__item-image">
-                        <p class="search-result__item-date">2 августа, 2019</p>
-                        <h3 class="search-result__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-                        <p class="search-result__item-description">Знаменитый фотограф снимает первозданные леса России,
-                            чтобы
-                            рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую
-                            тайгу, где...</p>
-                        <a href="https://ria.ru/" class="search-result__item-link" target="_blank">РИА</a>
-                    </div>
-                    <div class="search-result__item">
-                        <img src="<%=require('./images/image_06.png')%>" alt="Шалфей" class="search-result__item-image">
-                        <p class="search-result__item-date">2 августа, 2019</p>
-                        <h3 class="search-result__item-title">Национальное достояние – парки</h3>
-                        <p class="search-result__item-description">В 2016 году Америка отмечала важный юбилей: сто лет
-                            назад здесь
-                            начала складываться система национальных парков – охраняемых территорий, где и сегодня
-                            каждый может приобщиться к природе.</p>
-                        <a href="https://lenta.ru/" class="search-result__item-link" target="_blank">Лента.ру</a>
-                    </div>
-                    <div class="search-result__item">
-                        <img src="<%=require('./images/image_01.png')%>" alt="Фикус" class="search-result__item-image">
-                        <p class="search-result__item-date">2 августа, 2019</p>
-                        <h3 class="search-result__item-title">Лесные огоньки: история одной фотографии</h3>
-                        <p class="search-result__item-description">Фотограф отвлеклась от освещения суровой политической
-                            реальности
-                            Мексики, чтобы запечатлеть ускользающую красоту одного
-                            из местных чудес природы.</p>
-                        <a href="https://meduza.io/" class="search-result__item-link" target="_blank">МЕДУЗА</a>
-                    </div>
-                    <div class="search-result__item">
-                        <img src="<%=require('./images/image_05.png')%>" alt="Мюленбекия спутанная"
-                            class="search-result__item-image">
-                        <p class="search-result__item-date">2 августа, 2019</p>
-                        <h3 class="search-result__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
-                        <p class="search-result__item-description">Знаменитый фотограф снимает первозданные леса России,
-                            чтобы
-                            рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую
-                            тайгу, где...</p>
-                        <a href="https://ria.ru/" class="search-result__item-link" target="_blank">РИА</a>
-                    </div>
+                        <p class="search-result__item-link">Лента.ру</p>
+                    </a>
                 </div>
                 <button class="search-result__button">Показать еще</button>
             </section>

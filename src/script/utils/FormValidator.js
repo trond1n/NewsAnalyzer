@@ -33,7 +33,6 @@ export default class FormValidator {
         }
     }
 
-    // Добавляет обработчики
     setEventListeners() {
         this.searchInput.addEventListener('input', this.checkInputValidity.bind(this));
 
