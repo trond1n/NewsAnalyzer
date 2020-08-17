@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Yuri Trondin">
+    <meta name="description" content="Сервис для анализа происходящих в мире событий ">
+    <title>Главная News Analyzer</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="./pages/index.7e400ec206a66f59a3b2.css?b9a12b0a5dd1570bead5">
+
+</head>
+
+<body>
+    <div class="page">
+        <main class="content">
+            <section class="search">
+                <header class="search__header header__margin">
+                    <img class="search__header_logo" src="./images/logo.svg"
+                        alt="логотип анализатора новостей">
+                    <div class="search__header_links">
+                        <a class="search__header_link-button search__header_link-button_selected"
+                            href="./index.html">Главная</a>
+                        <a class="search__header_link-button" href="./about.html">О проекте</a>
+                    </div>
+                </header>
+                <h1 class="search__title">Что в мире творится?</h1>
+                <p class="search__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в
+                    новостях за прошедшую неделю.</p>
+                <form class="search__container">
+                    <input class="search__container_input" placeholder="Введите тему новости" type="text" minlength='2'
+                        maxlength="30" required>
+                    <button class="search__container_button" type="submit">Искать</button>
+                    <span class="error search__container_error"></span>
+                </form>
+
+            </section>
+            <section class="not-found">
+                <img class="not-found__image" src="./images/not-found_v1.png" alt="Ничего не найдено">
+                <h3 class="not-found__title">Ничего не найдено</h3>
+                <p class="not-found__subtitle">К сожалению по вашему запросу
+                    ничего не найдено.</p>
+            </section>
+            <section class="search-preloader">
+                <i class="search-preloader__circle"></i>
+                <p class="search-preloader__subtitle">Идет поиск новостей...</p>
+            </section>
+            <section class="search-result">
+                <div class="search-result__two-columns">
+                    <h2 class="search-result__title">Результаты поиска</h2>
+                    <a href="./paper.html" class="search-result__link">Посмотреть аналитику &#62;</a>
+                </div>
+                <div class="search-result__cards">
+                    <div class="search-result__item">
+                        <img src="./images/image_08.png" alt="Шалфей" class="search-result__item-image">
+                        <p class="search-result__item-date">2 августа, 2019</p>
+                        <h3 class="search-result__item-title">Национальное достояние – парки</h3>
+                        <p class="search-result__item-description">В 2016 году Америка отмечала важный юбилей: сто лет
+                            назад здесь
+                            начала складываться система национальных парков – охраняемых территорий, где и сегодня
+                            каждый может приобщиться к природе.</p>
+                        <a href="https://lenta.ru/" class="search-result__item-link" target="_blank">Лента.ру</a>
+                    </div>
+                    <div class="search-result__item">
+                        <img src="./images/image_04.png" alt="Фикус" class="search-result__item-image">
+                        <p class="search-result__item-date">2 августа, 2019</p>
+                        <h3 class="search-result__item-title">Лесные огоньки: история одной фотографии</h3>
+                        <p class="search-result__item-description">Фотограф отвлеклась от освещения суровой политической
+                            реальности
+                            Мексики, чтобы запечатлеть ускользающую красоту одного
+                            из местных чудес природы.</p>
+                        <a href="https://meduza.io/" class="search-result__item-link" target="_blank">МЕДУЗА</a>
+                    </div>
+                    <div class="search-result__item">
+                        <img src="./images/image_07.png" alt="Мюленбекия спутанная"
+                            class="search-result__item-image">
+                        <p class="search-result__item-date">2 августа, 2019</p>
+                        <h3 class="search-result__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+                        <p class="search-result__item-description">Знаменитый фотограф снимает первозданные леса России,
+                            чтобы
+                            рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую
+                            тайгу, где...</p>
+                        <a href="https://ria.ru/" class="search-result__item-link" target="_blank">РИА</a>
+                    </div>
+                    <div class="search-result__item">
+                        <img src="./images/image_06.png" alt="Шалфей" class="search-result__item-image">
+                        <p class="search-result__item-date">2 августа, 2019</p>
+                        <h3 class="search-result__item-title">Национальное достояние – парки</h3>
+                        <p class="search-result__item-description">В 2016 году Америка отмечала важный юбилей: сто лет
+                            назад здесь
+                            начала складываться система национальных парков – охраняемых территорий, где и сегодня
+                            каждый может приобщиться к природе.</p>
+                        <a href="https://lenta.ru/" class="search-result__item-link" target="_blank">Лента.ру</a>
+                    </div>
+                    <div class="search-result__item">
+                        <img src="./images/image_01.png" alt="Фикус" class="search-result__item-image">
+                        <p class="search-result__item-date">2 августа, 2019</p>
+                        <h3 class="search-result__item-title">Лесные огоньки: история одной фотографии</h3>
+                        <p class="search-result__item-description">Фотограф отвлеклась от освещения суровой политической
+                            реальности
+                            Мексики, чтобы запечатлеть ускользающую красоту одного
+                            из местных чудес природы.</p>
+                        <a href="https://meduza.io/" class="search-result__item-link" target="_blank">МЕДУЗА</a>
+                    </div>
+                    <div class="search-result__item">
+                        <img src="./images/image_05.png" alt="Мюленбекия спутанная"
+                            class="search-result__item-image">
+                        <p class="search-result__item-date">2 августа, 2019</p>
+                        <h3 class="search-result__item-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h3>
+                        <p class="search-result__item-description">Знаменитый фотограф снимает первозданные леса России,
+                            чтобы
+                            рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую
+                            тайгу, где...</p>
+                        <a href="https://ria.ru/" class="search-result__item-link" target="_blank">РИА</a>
+                    </div>
+                </div>
+                <button class="search-result__button">Показать еще</button>
+            </section>
+            <section class="about-author">
+                <img src="./images/author.jpg" alt="фото автора" class="about-author__photo">
+                <div class="about-author__description">
+                    <h2 class="about-author__title">Об авторе</h2>
+                    <p class="about-author__subtitle">Это блок с описанием автора проекта. Здесь следует указать, как
+                        вас зовут, чем вы занимаетесь, какими технологиями разработки владеете.</p>
+                    <p class="about-author__subtitle">Также можно рассказать о процессе обучения в Практикуме, чему вы
+                        тут научились, и чем можете помочь потенциальным заказчикам.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <p class="footer__author">&#169; 2020. Юра Трондин</p>
+            <nav class="footer__navigation">
+                <ul class="footer__links">
+                    <li class="footer__item"><a class="footer__link" href="./about.html">Главная</a></li>
+                    <li class="footer__item"><a class="footer__link" href="./about.html">О проекте</a></li>
+                    <li class="footer__item"><a class="footer__link" target="_blank"
+                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></li>
+                </ul>
+            </nav>
+            <div class="footer__content_social">
+                <ul class="footer__column-links">
+                    <li class="footer__column-item">
+                        <a href="https://github.com/trond1n" class="footer__link">
+                            <img src="./images/github_logo.svg" alt="гитхаб"
+                                class="footer__social-icon">
+                        </a>
+                    </li>
+                    <li class="footer__column-item">
+                        <a href="https://www.facebook.com/manctzns" class="footer__link">
+                            <img src="./images/facebook_logo.svg" alt="вконтакте"
+                                class="footer__social-icon">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts/index.83c8bca1a5ad16e5cf99.js?b9a12b0a5dd1570bead5"></script>
+</body>
+
+</html>

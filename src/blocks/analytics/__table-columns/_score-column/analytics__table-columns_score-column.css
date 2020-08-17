@@ -1,6 +1,0 @@
-.analytics__table-columns_score-column {
-    display: grid;
-    grid-template-columns: minmax(104px, 104px);
-    grid-template-rows: repeat(7, 1fr);
-
-}
