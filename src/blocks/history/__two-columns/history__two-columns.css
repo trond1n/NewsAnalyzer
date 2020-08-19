@@ -1,6 +1,18 @@
 .history__two-columns {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 104px;
+}
+@media screen and (max-width: 868px) {
+  .history__two-columns {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .history__two-columns {
+    padding: 0px 16px;
+  }
 }
