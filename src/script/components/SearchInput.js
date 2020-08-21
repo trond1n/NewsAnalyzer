@@ -1,11 +1,11 @@
 export default class SearchInput {
 
-    constructor(form, request) {
-        this.form = form;
-        this.request = request;
-    }
+  constructor(form, callback) {
+    this.form = form;
+    this.callback = callback;
+  }
 
-    setSubmitListener() {
-        this.searchForm.addEventListener('submit', this.request);
-    }
+  submit() {
+    this.form.addEventListener('submit', this.callback);
+  }
 }

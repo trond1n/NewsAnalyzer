@@ -1,4 +1,4 @@
-import { commitDateFormater } from "../utils/DateConverter.js";
+import DateConverter from '../utils/DateConverter.js';
 import sliderSettings from "../utils/SliderSettings.js";
 
 export default class CommitCardList {
@@ -23,7 +23,7 @@ export default class CommitCardList {
                     const commitCard = this.historyItem.create(
                         array.commit.author.name,
                         array.commit.author.email,
-                        commitDateFormater(array.commit.author.date),
+                        DateConverter.сardDateConverter(array.commit.author.date),
                         array.commit.message,
                         array.author.avatar_url,
                     );
