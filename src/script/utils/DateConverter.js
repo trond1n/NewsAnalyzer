@@ -1,5 +1,5 @@
 import { daysCounter } from '../constants/constants.js';
-
+import { week } from '../constants/constants.js';
 export default class DateConverter {
 
   static сardDateConverter(day) {
@@ -32,6 +32,18 @@ export default class DateConverter {
     const dateFrom = `${weekAgoDay.getFullYear()}-${weekAgoDay.getMonth() + 1}-${weekAgoDay.getDate()}`;
 
     return { dateFrom, dateTo };
+  }
+
+
+  static getMonthForTable() {
+    const day = new Date();
+    const weekAgo = new Date(day);
+    weekAgo.setDate(day.getDate() - week + 1);
+    const month = weekAgo.toLocaleString('ru', {
+      month: 'long',
+    });
+
+    return month;
   }
 
 }

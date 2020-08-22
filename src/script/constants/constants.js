@@ -1,4 +1,3 @@
-
 //ошибки
 const ERROR_MESSAGES = {
   valueMissing: 'Это обязательное поле',
@@ -23,6 +22,7 @@ const NEWS_API_KEY = '126e7cb169674ebfb688eadae52e0241';
 const NEWS_LIMIT = 100;
 const NEWS_LANGUAGE = 'ru';
 const DAYS_COUNTER = 3;
+const WEEK = 7;
 
 //блок новостей
 const SEARCH_RESULT = document.querySelector('.search-result');
@@ -31,6 +31,13 @@ const SEARCH_RESULT_CARDS = document.querySelector('.search-result__cards');
 const SEARCH_PRELOADER = document.querySelector('.search-preloader');
 const NOT_FOUND = document.querySelector('.not-found');
 const BLANK_IMAGE = 'https://i.kym-cdn.com/entries/icons/original/000/000/063/Rage.jpg';
+
+
+//блок аналитики
+const RESUME_REQUEST_KEY = document.querySelector('.resume__request_key');
+const RESUME_NEWS_COUNTER = document.querySelector('.resume__news-counter');
+const RESUME_TITLE_COUNTER = document.querySelector('.resume__title-counter');
+const TABLE_MONTH = document.querySelector('.analytics__table-header_month');
 
 
 //экспорт
@@ -59,5 +66,10 @@ export {
   NOT_FOUND as notFound,
   BLANK_IMAGE as blankImage,
 
+  WEEK as week,
+  RESUME_REQUEST_KEY as resumeRequestKey,
+  RESUME_NEWS_COUNTER as resumeRequestCounter,
+  RESUME_TITLE_COUNTER as resumeTitleKey,
+  TABLE_MONTH as tableMonth,
 
 };
