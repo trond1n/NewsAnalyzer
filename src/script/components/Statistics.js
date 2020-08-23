@@ -21,7 +21,7 @@ export default class Statistics {
     this.newsCounter.textContent = totalResults;
 
     const results = news.articles.filter((article) =>
-      article.title.toLowerCase().includes(keyWord)
+      article.title.toLowerCase().includes(keyWord.toLowerCase())
     );
 
     this.titleCounter.textContent = results.length;
