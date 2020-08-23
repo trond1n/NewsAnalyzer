@@ -22,10 +22,10 @@ export default class NewsApi {
       `language=${this.language}&` +
       `apiKey=${this.key}`
     )
-      .then(res => {
-        if (res.ok) {
-          return res.json();
-        }
+      .then((res) => {
+        return res.json();
+      })
+      .catch(() => {
         return Promise.reject(`Ошибка: ${res.status}`);
       });
   };

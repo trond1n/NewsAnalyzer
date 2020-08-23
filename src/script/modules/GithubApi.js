@@ -11,14 +11,12 @@ export default class GithubApi {
 
   getCommits() {
     return fetch(`https://api.github.com/repos/${this.user}/${this.repo}/commits?&per_page=${this.commitsLimit}`)
-      .then((res) =>
-        res.ok ? res.json() : Promise.reject(`Ошибка: ${res.status}`)
-      )
       .then((res) => {
-        return res;
+        return res.json();
       })
-      .catch((error) => {
-        throw new Error(error.message);
+      .catch(() => {
+        return Promise.reject(`Ошибка: ${res.status}`);
       });
+
   }
 }
