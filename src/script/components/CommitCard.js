@@ -1,4 +1,4 @@
-//шаблон экземляра карточки
+
 export default class CommitCard {
     create(name, email, date, message, avatar) {
         const template = `

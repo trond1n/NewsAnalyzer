@@ -15,7 +15,7 @@ import {
     newsApiKey,
     newsLimit,
     newsLanguage,
-    daysCounter,
+    newsCounter,
     searchResult,
     searchResultButton,
     searchResultCards,
@@ -24,14 +24,15 @@ import {
 
 } from '../script/constants/constants.js';
 
-
+//константы
 const formValidation = new FormValidate(searchForm, searchInput, searchButton, errorMessages);
 const newsApi = new NewsApi(newsApiUrl, newsApiKey, newsLimit, newsLanguage);
 const dataStorage = new DataStorage();
-const createNewsCard = () => new NewsCard();
-const newsCardList = new NewsCardList(createNewsCard, searchResultCards, dataStorage, searchForm, searchResultButton, daysCounter);
+const createCard = () => new NewsCard();
+const newsCardList = new NewsCardList(createCard, searchResultCards, dataStorage, searchForm, searchResultButton, newsCounter);
 const searchInputSender = new SearchInput(searchForm, render);
 
+//создаем карточки
 function render() {
     event.preventDefault();
 
@@ -62,7 +63,7 @@ function render() {
 
         });
 }
-
+//тянем карточки из сторожа
 function pullCards() {
     const storageCards = dataStorage.getStorageCards();
     const storageRequest = dataStorage.getStorageRequest();
@@ -75,5 +76,6 @@ function pullCards() {
 }
 
 pullCards();
+
 formValidation.setEventListeners();
 searchInputSender.submit();

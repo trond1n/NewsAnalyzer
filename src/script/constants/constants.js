@@ -1,7 +1,8 @@
 //ошибки
 const ERROR_MESSAGES = {
-  valueMissing: 'Это обязательное поле',
-  tooShort: 'Должно быть от 2 до 30 символов',
+  valueMissing: 'Заполните это поле',
+  tooShort: 'Введите от 2 до 30 символов',
+  patternMismatch: 'Смените язык на русский'
 };
 
 //форма поиска
@@ -21,7 +22,7 @@ const NEWS_API_URL = 'https://nomoreparties.co/news/v2/everything';
 const NEWS_API_KEY = '126e7cb169674ebfb688eadae52e0241';
 const NEWS_LIMIT = 100;
 const NEWS_LANGUAGE = 'ru';
-const DAYS_COUNTER = 3;
+const NEWS_COUNTER = 3;
 const WEEK = 7;
 
 //блок новостей
@@ -38,7 +39,8 @@ const RESUME_REQUEST_KEY = document.querySelector('.resume__request_key');
 const RESUME_NEWS_COUNTER = document.querySelector('.resume__news-counter');
 const RESUME_TITLE_COUNTER = document.querySelector('.resume__title-counter');
 const TABLE_MONTH = document.querySelector('.analytics__table-header_month');
-
+const TABLE_CONTAINER = document.querySelector('.analytics__table-columns');
+const PERSENTS = 100;
 
 //экспорт
 export {
@@ -57,7 +59,7 @@ export {
   NEWS_API_KEY as newsApiKey,
   NEWS_LIMIT as newsLimit,
   NEWS_LANGUAGE as newsLanguage,
-  DAYS_COUNTER as daysCounter,
+  NEWS_COUNTER as newsCounter,
 
   SEARCH_RESULT as searchResult,
   SEARCH_RESULT_BUTTON as searchResultButton,
@@ -71,5 +73,6 @@ export {
   RESUME_NEWS_COUNTER as resumeRequestCounter,
   RESUME_TITLE_COUNTER as resumeTitleKey,
   TABLE_MONTH as tableMonth,
-
+  TABLE_CONTAINER as tableContainer,
+  PERSENTS as persents
 };

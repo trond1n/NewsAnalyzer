@@ -1,23 +1,24 @@
-@import url('./__table/analytics__table.css');
-@import url('./__table-columns/analytics__table-columns.css');
-@import url('./__table-header/analytics__table-header.css');
-@import url('./__table-score/analytics__table-score.css');
-@import url('./__title/analytics__title.css');
+@import url("./__table/analytics__table.css");
+@import url("./__table-columns/analytics__table-columns.css");
+@import url("./__table-row/analytics__table-row.css");
+@import url("./__table-header/analytics__table-header.css");
+@import url("./__table-score/analytics__table-score.css");
+@import url("./__title/analytics__title.css");
 
 .analytics {
-    margin: 0 auto;
-    padding: 80px 104px;
-    box-sizing: border-box;
+  margin: 0 auto;
+  padding: 80px 104px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 868px) {
-    .analytics {
-        padding: 40px;
-    }
+  .analytics {
+    padding: 40px;
+  }
 }
 
 @media screen and (max-width: 350px) {
-    .analytics {
-        padding: 16px;
-    }
+  .analytics {
+    padding: 16px;
+  }
 }

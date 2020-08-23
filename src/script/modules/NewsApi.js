@@ -11,13 +11,13 @@ export default class NewsApi {
   }
 
   getNews(request) {
-    const { dateFrom, dateTo } = DateConverter.setApiDate();
+    const { startDate, finishDate } = DateConverter.setApiDate();
 
     return fetch(
       `${this.url}?` +
       `q=${request}&` +
-      `from=${dateFrom}&` +
-      `to=${dateTo}&` +
+      `from=${startDate}&` +
+      `to=${finishDate}&` +
       `pageSize=${this.limit}&` +
       `language=${this.language}&` +
       `apiKey=${this.key}`

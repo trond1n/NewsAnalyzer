@@ -11,7 +11,9 @@ export default class FormValidate {
 
   //выводим ошибку
   checkInputValidity() {
-    if (this.input.validity.valueMissing) {
+    if (this.input.validity.patternMismatch) {
+      this.input.setCustomValidity(this.errors.patternMismatch);
+    } else if (this.input.validity.valueMissing) {
       this.input.setCustomValidity(this.errors.valueMissing);
     } else if (this.input.validity.tooShort) {
       this.input.setCustomValidity(this.errors.tooShort);

@@ -30,8 +30,8 @@
                     новостях за прошедшую неделю.</p>
                 <form class="search__container" novalidate>
                     <input class="search__container_input" placeholder="Введите тему новости" type="text" minlength='2'
-                        maxlength="30" required>
-                    <button class="search__container_button" type="submit">Искать</button>
+                        maxlength="30" pattern="^[а-яА-ЯёЁ0-9\s]+$" required>
+                    <button class="search__container_button" disabled="disabled" type="submit">Искать</button>
                     <span class="search__container_error"></span>
                 </form>
 

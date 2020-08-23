@@ -2,7 +2,7 @@ import DateConverter from '../utils/DateConverter.js';
 import { blankImage } from '../constants/constants.js';
 export default class NewsCard {
 
-  createNewsCard(article) {
+  createCard(article) {
     const newsCard = document.createElement('a');
     newsCard.classList.add('search-result__item');
     newsCard.setAttribute('href', `${article.url}`);
