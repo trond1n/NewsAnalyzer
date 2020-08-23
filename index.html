@@ -8,7 +8,7 @@
     <meta name="description" content="Сервис для анализа происходящих в мире событий ">
     <title>Главная News Analyzer</title>
     <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="./pages/index.aa9514dc0578069798ed.css?768ea07500ed7217297c">
+    <link rel="stylesheet" href="./pages/index.aa9514dc0578069798ed.css?93650aa43c3f2b7f0c72">
 
 </head>
 
@@ -30,8 +30,8 @@
                     новостях за прошедшую неделю.</p>
                 <form class="search__container" novalidate>
                     <input class="search__container_input" placeholder="Введите тему новости" type="text" minlength='2'
-                        maxlength="30" required>
-                    <button class="search__container_button" type="submit">Искать</button>
+                        maxlength="30" pattern="^[а-яА-ЯёЁ0-9\s]+$" required>
+                    <button class="search__container_button" disabled="disabled" type="submit">Искать</button>
                     <span class="search__container_error"></span>
                 </form>
 
@@ -105,7 +105,7 @@
             </div>
         </footer>
     </div>
-    <script src="./scripts/index.2c40313515ec748cb5b2.js?768ea07500ed7217297c"></script>
+    <script src="./scripts/index.d57e91382693454c2bf1.js?93650aa43c3f2b7f0c72"></script>
 </body>
 
 </html>
