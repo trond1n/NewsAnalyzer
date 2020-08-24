@@ -29,11 +29,13 @@
                     <p class="resume__links_separator">/</p>
                     <a href="./index.html" class="resume__button resume__button_active">Аналитика</a>
                 </div>
-                <h3 class="resume__request">Вы спросили: «Путешествия»</h3>
+                <h3 class="resume__request">Вы спросили: "<span class="resume__request_key"></span>"</h3>
                 <div class="resume__results">
-                    <p class="resume__value">Новостей за неделю: <span class="resume__value_span-accent">34 324</span>
+                    <p class="resume__value">Новостей за неделю: <span
+                            class="resume__value_span-accent resume__news-counter"></span>
                     </p>
-                    <p class="resume__value">Упоминаний в загаловках: <span class="resume__value_span-accent">235</span>
+                    <p class="resume__value">Упоминаний в заголовках: <span
+                            class="resume__value_span-accent resume__title-counter"></span>
                     </p>
 
                 </div>
@@ -42,7 +44,8 @@
                 <h3 class="analytics__title">Аналитика по дням</h3>
                 <div class="analytics__table">
                     <div class="analytics__table-header">
-                        <p class="analytics__table-header_date">ДАТА (АВГУСТ)</p>
+                        <p class="analytics__table-header_date">ДАТА (<span
+                                class="analytics__table-header_month"></span>)</p>
                         <p class="analytics__table-score">Кол-во упоминаний</p>
                     </div>
                     <div class="analytics__table_scales">
@@ -53,7 +56,7 @@
                         <p class="analytics__table_degree">100</p>
                     </div>
                     <div class="analytics__table-columns">
-                        <div class="analytics__table-columns_date-column">
+                        <!-- <div class="analytics__table-columns_date-column">
                             <p class="analytics__table_date">19, пн</p>
                             <p class="analytics__table_date">20, вт</p>
                             <p class="analytics__table_date">21, ср</p>
@@ -69,48 +72,47 @@
                             <p class="analytics__table_score">39</p>
                             <p class="analytics__table_score">45</p>
                             <p class="analytics__table_score">73</p>
-                            <p class="analytics__table_score">34</p>
+                            <p class="analytics__table_score">34</p> -->
 
-                        </div>
-                    </div>
-                    <div class="analytics__table_scales">
-                        <p class="analytics__table_degree">0</p>
-                        <p class="analytics__table_degree">25</p>
-                        <p class="analytics__table_degree">50</p>
-                        <p class="analytics__table_degree">75</p>
-                        <p class="analytics__table_degree">100</p>
                     </div>
                 </div>
-            </section>
-        </main>
-        <foooter class="footer">
-            <p class="footer__author">&#169; 2020. Юра Трондин</p>
-            <nav class="footer__navigation">
-                <ul class="footer__links">
-                    <li class="footer__item"><a class="footer__link" href="./about.html">Главная</a></li>
-                    <li class="footer__item"><a class="footer__link" href="./about.html">О проекте</a></li>
-                    <li class="footer__item"><a class="footer__link" target="_blank"
-                            href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></li>
-                </ul>
-            </nav>
-            <div class="footer__content_social">
-                <ul class="footer__column-links">
-                    <li class="footer__column-item">
-                        <a href="https://github.com/trond1n" class="footer__link">
-                            <img src="<%=require('./images/github_logo.svg')%>" alt="гитхаб"
-                                class="footer__social-icon">
-                        </a>
-                    </li>
-                    <li class="footer__column-item">
-                        <a href="https://www.facebook.com/manctzns" class="footer__link">
-                            <img src="<%=require('./images/facebook_logo.svg')%>" alt="вконтакте"
-                                class="footer__social-icon">
-                        </a>
-                    </li>
+                <div class="analytics__table_scales">
+                    <p class="analytics__table_degree">0</p>
+                    <p class="analytics__table_degree">25</p>
+                    <p class="analytics__table_degree">50</p>
+                    <p class="analytics__table_degree">75</p>
+                    <p class="analytics__table_degree">100</p>
+                </div>
+    </div>
+    </section>
+    </main>
+    <foooter class="footer">
+        <p class="footer__author">&#169; 2020. Юра Трондин</p>
+        <nav class="footer__navigation">
+            <ul class="footer__links">
+                <li class="footer__item"><a class="footer__link" href="./index.html">Главная</a></li>
+                <li class="footer__item"><a class="footer__link" href="./about.html">О проекте</a></li>
+                <li class="footer__item"><a class="footer__link" target="_blank"
+                        href="https://praktikum.yandex.ru/">Яндекс.Практикум</a></li>
+            </ul>
+        </nav>
+        <div class="footer__content_social">
+            <ul class="footer__column-links">
+                <li class="footer__column-item">
+                    <a href="https://github.com/trond1n" class="footer__link">
+                        <img src="<%=require('./images/github_logo.svg')%>" alt="гитхаб" class="footer__social-icon">
+                    </a>
+                </li>
+                <li class="footer__column-item">
+                    <a href="https://www.facebook.com/manctzns" class="footer__link">
+                        <img src="<%=require('./images/facebook_logo.svg')%>" alt="вконтакте"
+                            class="footer__social-icon">
+                    </a>
+                </li>
 
-                </ul>
-            </div>
-        </foooter>
+            </ul>
+        </div>
+    </foooter>
     </div>
     <script src="<%= htmlWebpackPlugin.files.chunks.paper.entry %>"></script>
 </body>

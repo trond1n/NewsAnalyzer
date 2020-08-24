@@ -1,9 +1,10 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
-@import url('../blocks/page/page.css');
-@import url('../blocks/search/search.css');
-@import url('../blocks/about-author/about-author.css');
-@import url('../blocks/search-result/search-result.css');
-@import url('../blocks/footer/footer.css');
-@import url('../blocks/search-preloader/search-preloader.css');
-@import url('../blocks/not-found/not-found.css');
+@import url("../blocks/page/page.css");
+@import url("../blocks/search/search.css");
+@import url("../blocks/about-author/about-author.css");
+@import url("../blocks/search-result/search-result.css");
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/search-preloader/search-preloader.css");
+@import url("../blocks/not-found/not-found.css");
+@import url("../blocks/section/section.css");

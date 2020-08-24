@@ -1,0 +1,6 @@
+.analytics__table-row {
+  margin: 0;
+  display: grid;
+  grid-template-columns: minmax(104px, 104px) 4fr;
+  grid-template-rows: 1fr;
+}
